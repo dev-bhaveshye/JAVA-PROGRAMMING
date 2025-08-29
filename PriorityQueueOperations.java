@@ -71,11 +71,10 @@ public class PriorityQueueOperations {
 
         // 5. isEmpty() - checks if queue is empty
         System.out.println("Is queue empty? " + pq.isEmpty());
-
+        
         // 6. clear() - removes all elements
         pq.clear();
         System.out.println("After clear(): " + pq);
         System.out.println("Is queue empty after clear()? " + pq.isEmpty());
     }
-    
 }
